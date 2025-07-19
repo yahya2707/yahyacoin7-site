@@ -8,30 +8,26 @@
     body {
       font-family: 'Cairo', sans-serif;
       background-color: #121212;
-      color: #ffffff;
+      color: #fff;
       margin: 0;
       padding: 0;
       text-align: center;
     }
-    header {
+    header img {
+      max-width: 150px;
       margin-top: 30px;
     }
-    header img {
-      max-width: 140px;
-      margin-bottom: 10px;
-    }
     h1 {
+      margin: 20px;
       font-size: 2.5em;
-      margin-bottom: 10px;
-      color: #ffffff;
+      color: #FFD700;
     }
     h2 {
-      font-size: 1.8em;
-      color: #ffffff;
-      margin-top: 50px;
+      color: #FFD700;
+      margin-bottom: 20px;
     }
     .section {
-      margin: 30px auto;
+      margin: 40px auto;
       max-width: 800px;
       text-align: right;
       padding: 0 20px;
@@ -39,46 +35,43 @@
     ul {
       list-style: none;
       padding: 0;
-    }
-    li {
-      padding: 5px 0;
       font-size: 1.1em;
+    }
+    li::before {
+      content: "• ";
+      color: #FFD700;
+      font-weight: bold;
     }
     .en {
       direction: ltr;
       text-align: left;
       margin-top: 20px;
+      font-size: 1.1em;
     }
-    footer {
-      margin-top: 50px;
-      padding: 25px;
-      background: #1e1e1e;
-      font-size: 0.9em;
-      color: #aaa;
-    }
-    .cta-bottom {
-      margin-top: 40px;
-    }
-    .cta-bottom a {
-      background: #d4af37;
-      color: #121212;
-      padding: 12px 30px;
-      border-radius: 5px;
+    a {
+      color: #00BFFF;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1em;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background: #1e1e1e;
+      color: #aaa;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="logo.png" alt="YahyaCoin7 Logo">
-    <h1>مرحباً بك في YahyaCoin7</h1>
+    <img src="شعار.png" alt="YahyaCoin7 Logo">
+    <h1>🚀 مرحباً بك في YahyaCoin7</h1>
+    <h1 class="en">🚀 Welcome to YahyaCoin7</h1>
   </header>
 
   <div class="section">
-    <h2>Tokenomics</h2>
+    <h2>💰 توكنوميكس (Tokenomics)</h2>
     <ul>
       <li>إجمالي التوريد: 1,000,000,000</li>
       <li>70% للمجتمع</li>
@@ -96,11 +89,11 @@
   </div>
 
   <div class="section">
-    <h2>خارطة الطريق</h2>
+    <h2>🗺 خارطة الطريق • <span style="color:#00BFFF;">Roadmap</span></h2>
     <ul>
       <li>المرحلة 1: الإطلاق على منصة Pump.fun</li>
-      <li>المرحلة 2: حملة ترويج وتوزيع (Airdrop)</li>
-      <li>المرحلة 3: إدراج في CoinMarketCap وCoinGecko</li>
+      <li>المرحلة 2: حملة توزيع (Airdrop)</li>
+      <li>المرحلة 3: إدراج في CoinMarketCap و CoinGecko</li>
       <li>المرحلة 4: بناء شراكات وفائدة حقيقية</li>
     </ul>
     <div class="en">
@@ -114,10 +107,7 @@
   </div>
 
   <footer>
-    <div class="cta-bottom">
-      <a href="buy.html">شراء YahyaCoin7 الآن</a>
-    </div>
-    <p style="margin-top: 20px;">© 2025 YahyaCoin7. جميع الحقوق محفوظة.</p>
+    جميع الحقوق محفوظة © YahyaCoin7 - 2025
   </footer>
 
 </body>
