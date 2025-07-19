@@ -1,98 +1,138 @@
-<!DOCTYPE html><html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Roadmap - YahyaCoin7</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <title>Roadmap — YahyaCoin7</title>
   <style>
     body {
-      background-color: #121212;
-      color: #fff;
-      font-family: 'Cairo', sans-serif;
+      background-color: #000;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 20px;
+      padding: 0;
       text-align: center;
     }
-    img {
-      width: 120px;
-      margin-bottom: 20px;
-      cursor: pointer;
+
+    header {
+      padding: 20px 0;
     }
-    h1 {
-      font-size: 36px;
-      color: #FFD700;
+
+    header img {
+      width: 100px;
+      margin-bottom: 10px;
     }
-    .timeline {
-      position: relative;
-      max-width: 800px;
-      margin: auto;
+
+    nav {
+      background-color: #111;
+      padding: 15px;
     }
-    .timeline::after {
-      content: '';
-      position: absolute;
-      width: 6px;
-      background-color: #FFD700;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      margin-left: -3px;
-    }
-    .container {
-      padding: 20px 40px;
-      position: relative;
-      background-color: inherit;
-      width: 50%;
-    }
-    .container.left {
-      left: 0;
-    }
-    .container.right {
-      left: 50%;
-    }
-    .content {
-      padding: 20px;
-      background-color: #1e1e1e;
-      position: relative;
-      border-radius: 10px;
-    }
-    .container::before {
-      content: "\1F680";
-      position: absolute;
-      top: 15px;
-      width: 25px;
-      height: 25px;
-      background-color: #FFD700;
-      color: #000;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 25px;
-      font-size: 14px;
-    }
-    .left::before {
-      right: -17px;
-    }
-    .right::before {
-      left: -17px;
-    }
-    a {
-      color: #FFD700;
+
+    nav a {
+      color: gold;
+      margin: 0 15px;
       text-decoration: none;
+      font-weight: bold;
     }
-    @media screen and (max-width: 600px) {
-      .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-      }
-      .timeline::after {
-        left: 31px;
-      }
-      .left::before, .right::before {
-        left: 15px;
-      }
+
+    h1 {
+      color: gold;
+      font-size: 32px;
+      margin-top: 30px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      font-size: 18px;
+      line-height: 1.8;
+      text-align: left;
+      color: #ccc;
+    }
+
+    .phase {
+      margin-bottom: 30px;
+    }
+
+    .phase h2 {
+      color: #007bff;
+      font-size: 22px;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px 0;
+      background-color: #111;
+      color: #777;
+      font-size: 14px;
     }
   </style>
 </head>
-<body>  <a href="index.html">
-    <img src="logo.png" alt="YahyaCoin7 Logo">
-  </a>  <h1>Yahya
+<body>
+
+  <header>
+    <img src="logo.png" alt="YahyaCoin7 Logo" />
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="roadmap.html">Roadmap</a>
+    <a href="utilities.html">Utilities</a>
+    <a href="whitepaper.html">Whitepaper</a>
+    <a href="partners.html">Partners</a>
+    <a href="Joinus.html">Join Us</a>
+    <a href="buy.html">Buy</a>
+  </nav>
+
+  <main>
+    <h1>🚀 YahyaCoin7 Roadmap</h1>
+
+    <section>
+      <div class="phase">
+        <h2>📍 Phase 1: Launch & Awareness</h2>
+        <ul>
+          <li>Token launch on Pump.fun</li>
+          <li>Website & Whitepaper release</li>
+          <li>Community Telegram & Discord setup</li>
+        </ul>
+      </div>
+
+      <div class="phase">
+        <h2>🌍 Phase 2: Growth & Integration</h2>
+        <ul>
+          <li>Airdrop campaigns & marketing</li>
+          <li>Start of AI collaboration proposals</li>
+          <li>Tools to support freelancers & startups</li>
+        </ul>
+      </div>
+
+      <div class="phase">
+        <h2>💼 Phase 3: Listings & Utility</h2>
+        <ul>
+          <li>CoinMarketCap & CoinGecko listing</li>
+          <li>Beta launch of payment integrations</li>
+          <li>Micro-loans platform for entrepreneurs</li>
+        </ul>
+      </div>
+
+      <div class="phase">
+        <h2>🌐 Phase 4: Expansion & Global Presence</h2>
+        <ul>
+          <li>Major partnerships with AI platforms</li>
+          <li>Staking & DAO governance</li>
+          <li>Continued expansion across industries</li>
+        </ul>
+      </div>
+
+      <p style="color: gold; font-weight: bold; text-align: center; margin-top: 40px;">
+        Our mission is just beginning. Join the YahyaCoin7 revolution today.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 YahyaCoin7. All rights reserved.
+  </footer>
+
+</body>
+</html>
