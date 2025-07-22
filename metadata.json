@@ -1,0 +1,25 @@
+{
+  "name": "YahyaCoin7",
+  "symbol": "YHC7",
+  "description": "The official decentralized meme token of Yahya, built on the Solana blockchain to empower creators, support freelancers, and fuel innovation.",
+  "image": "https://yahya2707.github.io/yahyacoin7-site/assets/yhc-logo.png",
+  "external_url": "https://yahya2707.github.io/yahyacoin7-site/",
+  "seller_fee_basis_points": 0,
+  "attributes": [],
+  "collection": null,
+  "properties": {
+    "files": [
+      {
+        "uri": "https://yahya2707.github.io/yahyacoin7-site/assets/yhc-logo.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "1aJ3Ac7kkQE7ynAsxeB2XYjj1ZLbJ4pExqKpNdomAfX",
+        "share": 100
+      }
+    ]
+  }
+}
